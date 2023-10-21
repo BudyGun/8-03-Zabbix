@@ -105,9 +105,9 @@ sudo apt install zabbix-agent
 ```
 sudo nano /etc/zabbix/zabbix_agentd.conf
 ```
-
-
 Server=192.168.1.10
+
+И на сервере дообавлен хост, где установлен заббикс агент с необходимым темплэйтом.
 
 В логах появилась запись:
 ![1](https://github.com/BudyGun/8-03-Zabbix/blob/main/img/zz6.png)
