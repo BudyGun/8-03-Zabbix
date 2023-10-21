@@ -64,8 +64,7 @@ sudo -u postgres createdb -O zabbix zabbix
 zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
 ```
 
-Настроил базу данных для Zabbix сервера
-Отредактировал файл 
+Настроил базу данных для Zabbix сервера. Отредактировал файл 
 ```
 sudo nano /etc/zabbix/zabbix_server.conf
 ```
