@@ -27,3 +27,6 @@
 
 # Решение
 ![1](https://github.com/BudyGun/8-03-Zabbix/blob/main/img/z1.png)
+![1](https://github.com/BudyGun/8-03-Zabbix/blob/main/img/z2.png)
+![1](https://github.com/BudyGun/8-03-Zabbix/blob/main/img/z3.png)
+![1](https://github.com/BudyGun/8-03-Zabbix/blob/main/img/z4.png)
