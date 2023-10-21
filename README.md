@@ -82,3 +82,31 @@ systemctl enable zabbix-server zabbix-agent apache2
 ![1](https://github.com/BudyGun/8-03-Zabbix/blob/main/img/zz2.png)
 ![1](https://github.com/BudyGun/8-03-Zabbix/blob/main/img/zz3.png)
 ![1](https://github.com/BudyGun/8-03-Zabbix/blob/main/img/zz4.png)
+
+### Задание 2.
+
+Установите Zabbix Agent на два хоста.
+
+Установлен первый заббикс агент на сервер, при установке самого сервера. Второй заббикс агент установлен на вторую локальную машину. 
+
+
+Установка репозитория Zabbix на второй машине:
+
+```
+wget https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/zabbix-release_6.4-1+ubuntu22.04_all.deb
+sudo dpkg -i zabbix-release_6.4-1+ubuntu22.04_all.deb
+sudo apt update
+```
+Установка агента:
+```
+sudo apt install zabbix-agent
+```
+Сделаны настройки в файле:
+```
+sudo nano /etc/zabbix/zabbix_agentd.conf
+```
+
+
+Server=192.168.1.10
+![1](https://github.com/BudyGun/8-03-Zabbix/blob/main/img/zz6.png)
+
