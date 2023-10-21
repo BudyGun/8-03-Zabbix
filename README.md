@@ -97,7 +97,7 @@ wget https://repo.zabbix.com/zabbix/6.4/ubuntu/pool/main/z/zabbix-release/zabbix
 sudo dpkg -i zabbix-release_6.4-1+ubuntu22.04_all.deb
 sudo apt update
 ```
-Установка агента:
+Установка самого агента:
 ```
 sudo apt install zabbix-agent
 ```
@@ -108,5 +108,13 @@ sudo nano /etc/zabbix/zabbix_agentd.conf
 
 
 Server=192.168.1.10
+
+В логах появилась запись:
 ![1](https://github.com/BudyGun/8-03-Zabbix/blob/main/img/zz6.png)
+
+И данные пошли:
+![1](https://github.com/BudyGun/8-03-Zabbix/blob/main/img/zz7.png)
+![1](https://github.com/BudyGun/8-03-Zabbix/blob/main/img/zz8.png)
+
+
 
